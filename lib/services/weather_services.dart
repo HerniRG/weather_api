@@ -7,7 +7,7 @@ import 'package:weather_api/models/weather_model.dart';
 
 class WeatherServices {
   static String baseUrl = "https://api.openweathermap.org/data/2.5/weather";
-  final String apiKey = '622233f891038a910f8c343051969cc0';
+  final String apiKey = 'TuApiKey';
 
   // Obtiene el clima de una ciudad específica utilizando la API de OpenWeatherMap
   Future<Weather> getWeather(String city) async {
